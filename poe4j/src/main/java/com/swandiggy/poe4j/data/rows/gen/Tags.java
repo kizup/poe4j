@@ -18,5 +18,7 @@ public class Tags
     private String id;
     @Order(1)
     private Integer unknown0;
+    @Order(2)
+    private String displayString;
 
 }

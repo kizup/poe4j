@@ -1,7 +1,6 @@
 
 package com.swandiggy.poe4j.data.rows.gen;
 
-import java.util.List;
 import com.swandiggy.poe4j.data.annotations.DatFile;
 import com.swandiggy.poe4j.data.annotations.Order;
 import com.swandiggy.poe4j.data.rows.BaseRow;
@@ -18,18 +17,20 @@ public class Environment
     @Order(0)
     private String id;
     @Order(1)
-    private String base_AmbientSoundFile;
-    @Order(2)
-    private List<Long> keys0;
-    @Order(3)
     private String base_ENVFile;
-    @Order(4)
+    @Order(2)
     private String corrupted_ENVFile;
+    @Order(3)
+    private Integer unknown1;
+    @Order(4)
+    private Integer unknown2;
     @Order(5)
-    private List<Long> keys1;
+    private Integer unknown3;
     @Order(6)
-    private String corrupted_AmbientSoundFile;
+    private Integer unknown4;
     @Order(7)
-    private String ambientSoundFile;
+    private EnvironmentTransition environmentTransitionsKey;
+    @Order(8)
+    private Long key0;
 
 }

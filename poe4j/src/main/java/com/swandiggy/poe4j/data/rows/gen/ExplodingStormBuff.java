@@ -51,5 +51,7 @@ public class ExplodingStormBuff
     private Integer unknown25;
     @Order(17)
     private BuffDefinitions buffDefinitionsKey2;
+    @Order(18)
+    private Boolean isOnlySpawningNearPlayer;
 
 }

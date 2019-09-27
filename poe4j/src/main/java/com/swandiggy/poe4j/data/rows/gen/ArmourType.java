@@ -16,5 +16,7 @@ public class ArmourType
 
     @Order(0)
     private BaseItemTypes baseItemTypesKey;
+    @Order(1)
+    private Integer increasedMovementSpeed;
 
 }

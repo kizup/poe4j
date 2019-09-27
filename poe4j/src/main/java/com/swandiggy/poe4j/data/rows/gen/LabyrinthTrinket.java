@@ -18,10 +18,10 @@ public class LabyrinthTrinket
     @Order(0)
     private BaseItemTypes baseItemTypesKey;
     @Order(1)
-    private LabyrinthSecret labyrinthSecretsKey;
+    private List<LabyrinthSecret> labyrinthSecretsKey;
     @Order(2)
     private BuffDefinitions buff_BuffDefinitionsKey;
     @Order(3)
-    private List<Integer> buff_Values;
+    private List<Integer> buff_StatValues;
 
 }

@@ -18,5 +18,7 @@ public class ProjectileVariation
     private String id;
     @Order(1)
     private Projectiles projectileKey;
+    @Order(2)
+    private Boolean flag0;
 
 }

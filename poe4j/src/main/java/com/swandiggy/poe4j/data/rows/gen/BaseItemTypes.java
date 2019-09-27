@@ -38,38 +38,50 @@ public class BaseItemTypes
     @Order(10)
     private SoundEffects soundEffectsKey;
     @Order(11)
-    private List<Integer> data1;
+    private List<BaseItemTypes> normalPurchase_BaseItemTypesKeys;
     @Order(12)
-    private List<Integer> data2;
+    private List<Integer> normalPurchase_Costs;
     @Order(13)
-    private List<Integer> data3;
+    private List<BaseItemTypes> magicPurchase_BaseItemTypesKeys;
     @Order(14)
-    private List<Integer> data4;
+    private List<Integer> magicPurchase_Costs;
     @Order(15)
     private List<Tags> tagsKeys;
     @Order(16)
-    private Integer unknown2;
+    private Integer modDomainsKey;
     @Order(17)
-    private ItemVisualIdentity itemVisualIdentityKey;
+    private Boolean flag0;
     @Order(18)
-    private Integer unknownUnique;
+    private ItemVisualIdentity itemVisualIdentityKey;
     @Order(19)
-    private List<AchievementItem> vendorRecipe_AchievementItemsKeys;
+    private Integer unknownUnique;
     @Order(20)
-    private List<Integer> data7;
+    private List<AchievementItems> vendorRecipe_AchievementItemsKeys;
     @Order(21)
-    private List<Integer> data8;
+    private List<BaseItemTypes> rarePurchase_BaseItemTypesKeys;
     @Order(22)
-    private List<Integer> data9;
+    private List<Integer> rarePurchase_Costs;
     @Order(23)
-    private List<Integer> data10;
+    private List<BaseItemTypes> uniquePurchase_BaseItemTypesKeys;
     @Order(24)
-    private String unknown20;
+    private List<Integer> uniquePurchase_Costs;
     @Order(25)
-    private AchievementItem equip_AchievementItemsKey;
+    private String inflection;
     @Order(26)
-    private Boolean isTalisman;
+    private AchievementItems equip_AchievementItemsKey;
     @Order(27)
-    private List<Integer> data11;
+    private Boolean isPickedUpByMonsters;
+    @Order(28)
+    private List<AchievementItems> identify_AchievementItemsKeys;
+    @Order(29)
+    private ItemThemes itemThemesKey;
+    @Order(30)
+    private List<AchievementItems> identifyMagic_AchievementItemsKeys;
+    @Order(31)
+    private BaseItemTypes fragmentBaseItemTypesKey;
+    @Order(32)
+    private Boolean isBlessing;
+    @Order(33)
+    private Integer unknown0;
 
 }

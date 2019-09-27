@@ -66,7 +66,7 @@ public class Mods
     @Order(24)
     private List<Tags> tagsKeys;
     @Order(25)
-    private GrantedEffectsPerLevel grantedEffectsPerLevelKey;
+    private List<GrantedEffectsPerLevel> grantedEffectsPerLevelKeys;
     @Order(26)
     private List<Integer> data1;
     @Order(27)
@@ -78,7 +78,7 @@ public class Mods
     @Order(30)
     private List<Integer> data4;
     @Order(31)
-    private Long key0;
+    private BuffVisuals buffVisualsKey;
     @Order(32)
     private Integer stat5Min;
     @Order(33)
@@ -86,14 +86,30 @@ public class Mods
     @Order(34)
     private Stats statsKey5;
     @Order(35)
-    private List<Long> keys0;
+    private List<AchievementItems> fullAreaClear_AchievementItemsKey;
     @Order(36)
-    private AchievementItem achievementItemsKey;
+    private AchievementItems achievementItemsKey;
     @Order(37)
     private List<Tags> generationWeight_TagsKeys;
     @Order(38)
     private List<Integer> generationWeight_Values;
     @Order(39)
     private List<Integer> data5;
+    @Order(40)
+    private Boolean isEssenceOnlyModifier;
+    @Order(41)
+    private Integer stat6Min;
+    @Order(42)
+    private Integer stat6Max;
+    @Order(43)
+    private Stats statsKey6;
+    @Order(44)
+    private Integer delveDepth;
+    @Order(45)
+    private Byte unknown67;
+    @Order(46)
+    private AchievementItems unveil_AchievementItemsKey;
+    @Order(47)
+    private List<Long> keys0;
 
 }

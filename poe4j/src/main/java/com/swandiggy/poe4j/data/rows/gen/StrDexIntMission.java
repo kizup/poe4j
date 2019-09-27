@@ -18,34 +18,38 @@ public class StrDexIntMission
     @Order(0)
     private String id;
     @Order(1)
-    private Integer spawnWeight;
-    @Order(2)
-    private Boolean hasObjectiveBossKill;
-    @Order(3)
-    private Boolean hasObjectiveFullClear;
-    @Order(4)
-    private List<Mods> extra_ModsKeys;
-    @Order(5)
-    private Integer unknown4;
-    @Order(6)
-    private Integer unknown5;
-    @Order(7)
-    private Boolean hasObjectiveKillExiles;
-    @Order(8)
-    private Boolean hasObjectiveFindUnique;
-    @Order(9)
     private Long key0;
+    @Order(2)
+    private Integer spawnWeight;
+    @Order(3)
+    private Long key1;
+    @Order(4)
+    private Long key2;
+    @Order(5)
+    private List<Mods> extra_ModsKeys;
+    @Order(6)
+    private Byte flag0;
+    @Order(7)
+    private Byte flag1;
+    @Order(8)
+    private Byte flag2;
+    @Order(9)
+    private Long key3;
     @Order(10)
-    private Boolean hasObjectiveCompleteMasterMission;
+    private Integer unknown12;
     @Order(11)
-    private NPCTalk nPCTalkKey;
+    private Integer unknown13;
     @Order(12)
-    private MonsterPacks monsterPacksKey;
+    private Integer unknown14;
     @Order(13)
-    private Integer objectCountRequired;
+    private Integer unknown15;
     @Order(14)
-    private Integer objectCountTotal;
+    private Long key4;
     @Order(15)
-    private List<AchievementItem> achievementItemsKeys;
+    private Long key5;
+    @Order(16)
+    private Long key6;
+    @Order(17)
+    private Byte flag3;
 
 }

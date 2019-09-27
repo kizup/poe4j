@@ -26,5 +26,9 @@ public class MinimapIcon
     private Boolean flag1;
     @Order(5)
     private Boolean flag2;
+    @Order(6)
+    private Integer unknown4;
+    @Order(7)
+    private Integer unknown5;
 
 }

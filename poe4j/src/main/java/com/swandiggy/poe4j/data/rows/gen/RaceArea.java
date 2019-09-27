@@ -23,5 +23,7 @@ public class RaceArea
     private List<Mods> modsKeys;
     @Order(3)
     private List<Long> keys0;
+    @Order(4)
+    private List<Integer> keys1;
 
 }

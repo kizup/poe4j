@@ -19,6 +19,10 @@ public class Strongboxe
     @Order(1)
     private Integer spawnWeight;
     @Order(2)
-    private Integer unknown3;
+    private Integer unknown1;
+    @Order(3)
+    private Boolean isCartographerBox;
+    @Order(4)
+    private Boolean flag0;
 
 }

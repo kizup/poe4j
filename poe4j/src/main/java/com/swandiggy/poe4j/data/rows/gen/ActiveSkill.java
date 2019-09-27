@@ -26,9 +26,9 @@ public class ActiveSkill
     @Order(4)
     private String icon_DDSFile;
     @Order(5)
-    private List<Integer> activeSkillTargetTypeData;
+    private List<Integer> activeSkillTargetTypes;
     @Order(6)
-    private List<Integer> activeSkillTypeData;
+    private List<Integer> activeSkillTypes;
     @Order(7)
     private List<ItemClasses> weaponRestriction_ItemClassesKeys;
     @Order(8)
@@ -50,6 +50,14 @@ public class ActiveSkill
     @Order(16)
     private List<Stats> output_StatKeys;
     @Order(17)
-    private List<Integer> unknown19;
+    private List<Integer> minionActiveSkillTypes;
+    @Order(18)
+    private Boolean flag2;
+    @Order(19)
+    private Boolean flag3;
+    @Order(20)
+    private List<Long> keys0;
+    @Order(21)
+    private Integer unknown3;
 
 }

@@ -30,13 +30,13 @@ public class Chests
     @Order(6)
     private Boolean flag2;
     @Order(7)
-    private Integer unknown4;
+    private Integer unknown1;
     @Order(8)
     private Boolean flag3;
     @Order(9)
     private Boolean flag4;
     @Order(10)
-    private Integer unknown5;
+    private Integer unknown2;
     @Order(11)
     private List<Long> unknown_Keys;
     @Order(12)
@@ -54,16 +54,22 @@ public class Chests
     @Order(18)
     private Integer minLevel;
     @Order(19)
-    private String unknown19;
+    private String unknown3;
     @Order(20)
     private Integer maxLevel;
     @Order(21)
-    private AchievementItem corrupt_AchievementItemsKey;
+    private AchievementItems corrupt_AchievementItemsKey;
     @Order(22)
-    private AchievementItem currencyUse_AchievementItemsKey;
+    private AchievementItems currencyUse_AchievementItemsKey;
     @Order(23)
-    private List<AchievementItem> encounter_AchievementItemsKey;
+    private List<AchievementItems> encounter_AchievementItemsKeys;
     @Order(24)
     private Long key4;
+    @Order(25)
+    private String inheritsFrom;
+    @Order(26)
+    private Boolean flag6;
+    @Order(27)
+    private Long key5;
 
 }

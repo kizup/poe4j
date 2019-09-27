@@ -1,6 +1,7 @@
 
 package com.swandiggy.poe4j.data.rows.gen;
 
+import java.util.List;
 import com.swandiggy.poe4j.data.annotations.DatFile;
 import com.swandiggy.poe4j.data.annotations.Order;
 import com.swandiggy.poe4j.data.rows.BaseRow;
@@ -24,5 +25,9 @@ public class SupporterPackSet
     private String time0;
     @Order(4)
     private String time1;
+    @Order(5)
+    private List<Integer> shopPackagePlatformKey;
+    @Order(6)
+    private String unknown0;
 
 }

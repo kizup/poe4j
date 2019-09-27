@@ -20,30 +20,46 @@ public class GrantedEffect
     @Order(1)
     private Boolean isSupport;
     @Order(2)
-    private List<Integer> data0;
+    private List<Integer> allowedActiveSkillTypes;
     @Order(3)
-    private String supportGemLetter;
+    private Float baseEffectiveness;
     @Order(4)
-    private Integer unknown0;
+    private Float incrementalEffectiveness;
     @Order(5)
-    private List<Integer> data1;
+    private String supportGemLetter;
     @Order(6)
-    private List<Integer> data2;
+    private Integer unknown0;
     @Order(7)
-    private Boolean flag0;
+    private List<Integer> addedActiveSkillTypes;
     @Order(8)
-    private Integer unknown1;
+    private List<Integer> excludedActiveSkillTypes;
     @Order(9)
-    private List<Integer> unknown2;
+    private Boolean supportsGemsOnly;
     @Order(10)
-    private Boolean flag1;
+    private Integer unknown1;
     @Order(11)
-    private Integer unknown3;
+    private List<Integer> data3;
     @Order(12)
-    private Integer castTime;
+    private Boolean flag1;
     @Order(13)
-    private ActiveSkill activeSkillsKey;
+    private Integer unknown2;
     @Order(14)
-    private Byte flag2;
+    private Integer castTime;
+    @Order(15)
+    private ActiveSkill activeSkillsKey;
+    @Order(16)
+    private Boolean flag2;
+    @Order(17)
+    private Boolean flag3;
+    @Order(18)
+    private List<Integer> data4;
+    @Order(19)
+    private Long key0;
+    @Order(20)
+    private Long key1;
+    @Order(21)
+    private Boolean flag4;
+    @Order(22)
+    private List<Long> keys0;
 
 }

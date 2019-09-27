@@ -1,6 +1,7 @@
 
 package com.swandiggy.poe4j.data.rows.gen;
 
+import java.util.List;
 import com.swandiggy.poe4j.data.annotations.DatFile;
 import com.swandiggy.poe4j.data.annotations.Order;
 import com.swandiggy.poe4j.data.rows.BaseRow;
@@ -19,14 +20,16 @@ public class QuestStaticReward
     @Order(1)
     private Integer unknown1;
     @Order(2)
-    private BaseItemTypes statsKey;
+    private List<Stats> statsKeys;
     @Order(3)
-    private Integer statValue;
+    private List<Integer> statValues;
     @Order(4)
-    private Difficulties difficultyKey;
-    @Order(5)
     private Quest questKey;
-    @Order(6)
+    @Order(5)
     private Integer unknown2;
+    @Order(6)
+    private ClientStrings clientStringsKey;
+    @Order(7)
+    private Integer unknown3;
 
 }

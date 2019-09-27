@@ -18,5 +18,7 @@ public class ShopToken
     private String id;
     @Order(1)
     private String typeId;
+    @Order(2)
+    private String description;
 
 }

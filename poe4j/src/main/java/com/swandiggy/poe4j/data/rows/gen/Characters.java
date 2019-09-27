@@ -38,7 +38,7 @@ public class Characters
     @Order(10)
     private String icon;
     @Order(11)
-    private Integer unknown6;
+    private Integer integerId;
     @Order(12)
     private Integer baseStrength;
     @Order(13)
@@ -66,8 +66,20 @@ public class Characters
     @Order(24)
     private BaseItemTypes startWeapon_BaseItemTypesKey;
     @Order(25)
-    private Integer unknown28;
+    private Integer unknown27;
     @Order(26)
     private String traitDescription;
+    @Order(27)
+    private Long key0;
+    @Order(28)
+    private Long key1;
+    @Order(29)
+    private Long key2;
+    @Order(30)
+    private Long key3;
+    @Order(31)
+    private Integer unknown31;
+    @Order(32)
+    private List<Long> keys1;
 
 }

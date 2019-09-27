@@ -36,23 +36,23 @@ public class MonsterVarieties
     @Order(9)
     private List<Mods> modsKeys;
     @Order(10)
-    private Integer unknown1;
+    private Integer unknown12;
     @Order(11)
-    private String unknownIndex0;
+    private Integer unknown13;
     @Order(12)
-    private String unknownIndex1;
+    private Integer unknown14;
     @Order(13)
     private Integer modelSizeMultiplier;
     @Order(14)
-    private Integer unknown2;
+    private Integer unknown16;
     @Order(15)
-    private Integer unknown3;
+    private Integer unknown17;
     @Order(16)
-    private Integer unknown4;
+    private Integer unknown18;
     @Order(17)
-    private Integer unknown5;
+    private Integer unknown19;
     @Order(18)
-    private Integer unknown6;
+    private Integer unknown20;
     @Order(19)
     private List<Tags> tagsKeys;
     @Order(20)
@@ -60,15 +60,15 @@ public class MonsterVarieties
     @Order(21)
     private List<Integer> unknown7;
     @Order(22)
-    private Integer unknown8;
+    private Integer unknown26;
     @Order(23)
-    private Integer unknown9;
+    private Integer unknown27;
     @Order(24)
-    private Integer unknown10;
+    private Integer unknown28;
     @Order(25)
     private Integer criticalStrikeChance;
     @Order(26)
-    private Integer unknown11;
+    private Integer unknown30;
     @Order(27)
     private List<GrantedEffect> grantedEffectsKeys;
     @Order(28)
@@ -76,7 +76,7 @@ public class MonsterVarieties
     @Order(29)
     private List<Mods> modsKeys2;
     @Order(30)
-    private String stance;
+    private Integer unknown36;
     @Order(31)
     private Long key2;
     @Order(32)
@@ -102,64 +102,70 @@ public class MonsterVarieties
     @Order(42)
     private ItemVisualIdentity helmet_ItemVisualIdentityKey;
     @Order(43)
-    private Integer unknown13;
+    private Integer unknown57;
     @Order(44)
-    private List<AchievementItem> achievementItemsKeys;
+    private List<AchievementItems> killSpecificMonsterCount_AchievementItemsKeys;
     @Order(45)
     private List<Mods> special_ModsKeys;
     @Order(46)
-    private List<AchievementItem> achievementItemsKeys2;
+    private List<AchievementItems> killRare_AchievementItemsKeys;
     @Order(47)
-    private Boolean unknown14;
+    private Boolean flag0;
     @Order(48)
-    private Integer unknown15;
+    private Integer unknown64;
     @Order(49)
-    private Integer unknown16;
+    private Integer unknown65;
     @Order(50)
-    private Integer unknown17;
+    private Integer unknown66;
     @Order(51)
-    private Integer unknown18;
+    private Integer unknown67;
     @Order(52)
-    private Integer unknown19;
+    private Integer unknown68;
     @Order(53)
-    private Integer unknown20;
+    private Integer unknown69;
     @Order(54)
-    private Integer unknown21;
+    private Integer unknown70;
     @Order(55)
-    private Byte unknown22;
+    private Integer unknown71;
     @Order(56)
-    private String unknown23;
+    private Byte flag1;
     @Order(57)
-    private List<AchievementItem> normal_AchievementItemsKeys;
+    private AchievementItems killWhileOnslaughtIsActive_AchievementItemsKey;
     @Order(58)
-    private List<AchievementItem> merciless_AchievementItemsKeys;
-    @Order(59)
-    private List<AchievementItem> cruel_AchievementItemsKeys;
-    @Order(60)
-    private AchievementItem flashback_AchievementItemsKey;
-    @Order(61)
     private MonsterSegment monsterSegmentsKey;
-    @Order(62)
+    @Order(59)
     private MonsterArmour monsterArmoursKey;
+    @Order(60)
+    private AchievementItems killWhileTalismanIsActive_AchievementItemsKey;
+    @Order(61)
+    private List<Mods> part1_ModsKeys;
+    @Order(62)
+    private List<Mods> part2_ModsKeys;
     @Order(63)
-    private AchievementItem achievementItemsKey;
+    private List<Mods> endgame_ModsKeys;
     @Order(64)
-    private List<AchievementItem> achievementItemsKey4;
+    private Long key0;
     @Order(65)
-    private List<Mods> normal_ModsKeys;
+    private Integer unknown88;
     @Order(66)
-    private List<Mods> cruel_ModsKeys;
+    private Integer unknown89;
     @Order(67)
-    private List<Mods> merciless_ModsKeys;
+    private List<Long> keys0;
     @Order(68)
-    private List<AchievementItem> killRareInNormal_AchievementItemsKeys;
+    private List<Long> keys1;
     @Order(69)
-    private List<AchievementItem> killRareInCruel_AchievementItemsKeys;
+    private Integer unknown94;
     @Order(70)
-    private List<AchievementItem> killRareInMerciless_AchievementItemsKeys;
+    private String sinkAnimation_AOFile;
     @Order(71)
-    private Long key3;
+    private Byte flag2;
     @Order(72)
-    private List<AchievementItem> countKills_AchievementItemsKeys;
+    private List<Long> keys2;
+    @Order(73)
+    private Byte flag3;
+    @Order(74)
+    private Byte flag4;
+    @Order(75)
+    private Byte flag5;
 
 }

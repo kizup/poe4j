@@ -1,13 +1,12 @@
 
 package com.swandiggy.poe4j.data.rows.gen;
 
+import java.util.List;
 import com.swandiggy.poe4j.data.annotations.DatFile;
 import com.swandiggy.poe4j.data.annotations.Order;
 import com.swandiggy.poe4j.data.rows.BaseRow;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-
-import java.util.List;
 
 @Data
 @EqualsAndHashCode(callSuper = true)
@@ -41,27 +40,27 @@ public class Essence
     @Order(11)
     private Long unknown11;
     @Order(12)
-    private Mods modsKey1;
+    private Mods display_Wand_ModsKey;
     @Order(13)
-    private Mods modsKey2;
+    private Mods display_Bow_ModsKey;
     @Order(14)
-    private Mods quiver_ModsKey;
+    private Mods display_Quiver_ModsKey;
     @Order(15)
-    private Mods amulet1_ModsKey;
+    private Mods display_Amulet_ModsKey;
     @Order(16)
-    private Mods belt1_ModsKey;
+    private Mods display_Ring_ModsKey;
     @Order(17)
-    private Mods belt3_ModsKey;
+    private Mods display_Belt_ModsKey;
     @Order(18)
-    private Mods gloves1_ModsKey;
+    private Mods display_Gloves_ModsKey;
     @Order(19)
-    private Mods boots1_ModsKey;
+    private Mods display_Boots_ModsKey;
     @Order(20)
-    private Mods bodyArmour1_ModsKey;
+    private Mods display_BodyArmour_ModsKey;
     @Order(21)
-    private Mods helmet1_ModsKey;
+    private Mods display_Helmet_ModsKey;
     @Order(22)
-    private Mods shield1_ModsKey;
+    private Mods display_Shield_ModsKey;
     @Order(23)
     private Integer unknown23;
     @Order(24)
@@ -73,76 +72,74 @@ public class Essence
     @Order(27)
     private EssenceType essenceTypeKey;
     @Order(28)
-    private Integer tier;
+    private Integer level;
     @Order(29)
     private Integer unknown31;
     @Order(30)
-    private Mods oneHand_ModsKey1;
+    private Mods display_Weapon_ModsKey;
     @Order(31)
-    private Mods modsKey13;
+    private Mods display_MeleeWeapon_ModsKey;
     @Order(32)
-    private Mods modsKey14;
+    private Mods display_OneHandWeapon_ModsKey;
     @Order(33)
-    private Mods modsKey15;
+    private Mods display_TwoHandWeapon_ModsKey;
     @Order(34)
-    private Mods twoHand_ModsKey1;
+    private Mods display_TwoHandMeleeWeapon_ModsKey;
     @Order(35)
-    private Mods boots3_ModsKey;
+    private Mods display_Armour_ModsKey;
     @Order(36)
-    private Mods ranged_ModsKey;
+    private Mods display_RangedWeapon_ModsKey;
     @Order(37)
-    private Mods helmet2_ModsKey;
+    private Mods helmet_ModsKey;
     @Order(38)
-    private Mods bodyArmour2_ModsKey;
+    private Mods bodyArmour_ModsKey;
     @Order(39)
-    private Mods boots2_ModsKey;
+    private Mods boots_ModsKey;
     @Order(40)
-    private Mods gloves2_ModsKey;
+    private Mods gloves_ModsKey;
     @Order(41)
     private Mods bow_ModsKey;
     @Order(42)
     private Mods wand_ModsKey;
     @Order(43)
-    private Mods twoHand_ModsKey2;
+    private Mods staff_ModsKey;
     @Order(44)
-    private Mods twoHand_ModsKey3;
+    private Mods twoHandSword_ModsKey;
     @Order(45)
-    private Mods twoHand_ModsKey4;
+    private Mods twoHandAxe_ModsKey;
     @Order(46)
-    private Mods twoHand_ModsKey5;
+    private Mods twoHandMace_ModsKey;
     @Order(47)
-    private Mods oneHand_ModsKey2;
+    private Mods claw_ModsKey;
     @Order(48)
-    private Mods oneHand_ModsKey3;
+    private Mods dagger_ModsKey;
     @Order(49)
-    private Mods oneHand_ModsKey4;
+    private Mods oneHandSword_ModsKey;
     @Order(50)
-    private Mods oneHand_ModsKey5;
+    private Mods oneHandThrustingSword_ModsKey;
     @Order(51)
-    private Mods oneHand_ModsKey6;
+    private Mods oneHandAxe_ModsKey;
     @Order(52)
-    private Mods oneHand_ModsKey7;
+    private Mods oneHandMace_ModsKey;
     @Order(53)
-    private Mods oneHand_ModsKey8;
+    private Mods sceptre_ModsKey;
     @Order(54)
-    private Mods oneHand_ModsKey9;
+    private Mods display_Monster_ModsKey;
     @Order(55)
     private Integer itemLevelRestriction;
     @Order(56)
-    private ClientString clientStringsKey;
+    private Mods belt_ModsKey;
     @Order(57)
-    private Mods belt2_ModsKey;
+    private Mods amuletsModsKey;
     @Order(58)
-    private Mods amulet2_ModsKey;
-    @Order(59)
     private Mods ring_ModsKey;
+    @Order(59)
+    private Mods display_Jewellery_ModsKey;
     @Order(60)
-    private Mods modsKey41;
+    private Mods shield_ModsKey;
     @Order(61)
-    private Mods shield2_ModsKey;
+    private Mods display_Items_ModsKey;
     @Order(62)
-    private Mods modsKey43;
-    @Order(63)
     private Boolean isScreamingEssence;
 
 }

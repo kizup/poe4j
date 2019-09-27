@@ -22,10 +22,12 @@ public class CharacterStartQuestState
     @Order(2)
     private List<Integer> questStates;
     @Order(3)
-    private List<Long> keys1;
+    private List<Long> keys0;
     @Order(4)
     private List<MapPins> mapPinsKeys;
     @Order(5)
-    private List<Integer> unknown9;
+    private List<Integer> data0;
+    @Order(6)
+    private List<Long> keys1;
 
 }

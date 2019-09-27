@@ -46,8 +46,12 @@ public class Shrine
     @Order(14)
     private Boolean unknown14;
     @Order(15)
-    private List<AchievementItem> achievementItemsKeys;
+    private List<AchievementItems> achievementItemsKeys;
     @Order(16)
-    private Boolean unknown16;
+    private Boolean isPVPOnly;
+    @Order(17)
+    private Boolean unknown17;
+    @Order(18)
+    private Boolean isLesserShrine;
 
 }

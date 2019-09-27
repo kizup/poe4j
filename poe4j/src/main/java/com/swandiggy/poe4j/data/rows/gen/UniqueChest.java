@@ -18,26 +18,26 @@ public class UniqueChest
     @Order(0)
     private String id;
     @Order(1)
-    private Chests chestsKey;
-    @Order(2)
     private Words wordsKey;
-    @Order(3)
+    @Order(2)
     private FlavourText flavourTextKey;
+    @Order(3)
+    private Integer minLevel;
     @Order(4)
-    private Integer unknown6;
-    @Order(5)
     private List<Mods> modsKeys;
+    @Order(5)
+    private Integer spawnWeight;
     @Order(6)
-    private Integer unknown9;
-    @Order(7)
     private List<Integer> data1;
-    @Order(8)
+    @Order(7)
     private String aOFile;
-    @Order(9)
+    @Order(8)
     private Boolean flag0;
-    @Order(10)
+    @Order(9)
     private List<Integer> data2;
+    @Order(10)
+    private Chests appearanceChestsKey;
     @Order(11)
-    private Long key0;
+    private Chests chestsKey;
 
 }

@@ -17,9 +17,9 @@ public class EssenceType
     @Order(0)
     private String id;
     @Order(1)
-    private Integer unknown1;
+    private Integer essenceType;
     @Order(2)
-    private Byte flag0;
+    private Boolean isCorruptedEssence;
     @Order(3)
     private Words wordsKey;
 

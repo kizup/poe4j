@@ -33,5 +33,9 @@ public class Realm
     private Integer unknown0;
     @Order(8)
     private Integer unknown1;
+    @Order(9)
+    private Boolean isGammaRealm;
+    @Order(10)
+    private List<Integer> unknown2;
 
 }

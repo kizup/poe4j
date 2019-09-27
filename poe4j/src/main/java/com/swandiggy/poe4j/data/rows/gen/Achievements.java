@@ -3,7 +3,7 @@ package com.swandiggy.poe4j.data.rows.gen;
 
 import com.swandiggy.poe4j.data.annotations.DatFile;
 import com.swandiggy.poe4j.data.annotations.Order;
-import com.swandiggy.poe4j.data.annotations.ReferenceOne;
+import com.swandiggy.poe4j.data.annotations.Reference;
 import com.swandiggy.poe4j.data.rows.BaseRow;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -20,7 +20,7 @@ public class Achievements
     @Order(1)
     private String description;
     @Order(2)
-    @ReferenceOne("id")
+    @Reference(Integer.class)
     private AchievementSetsDisplay achievementSetsDisplayKey;
     @Order(3)
     private String objective;
@@ -33,10 +33,20 @@ public class Achievements
     @Order(7)
     private Boolean flag2;
     @Order(8)
-    private Boolean flag3;
-    @Order(9)
     private Integer unknown3;
+    @Order(9)
+    private Boolean flag3;
     @Order(10)
-    private Byte flag4;
+    private Boolean flag4;
+    @Order(11)
+    private String unknown1;
+    @Order(12)
+    private Boolean flag5;
+    @Order(13)
+    private Boolean flag6;
+    @Order(14)
+    private Boolean flag7;
+    @Order(15)
+    private String unknown2;
 
 }

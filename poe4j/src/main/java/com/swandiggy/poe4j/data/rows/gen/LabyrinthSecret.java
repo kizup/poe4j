@@ -22,9 +22,9 @@ public class LabyrinthSecret
     @Order(2)
     private List<Integer> data0;
     @Order(3)
-    private Integer unknown5;
+    private Integer unknown0;
     @Order(4)
-    private Integer unknown6;
+    private Integer unknown1;
     @Order(5)
     private List<LabyrinthSecretEffect> labyrinthSecretEffectsKeys0;
     @Order(6)
@@ -32,7 +32,7 @@ public class LabyrinthSecret
     @Order(7)
     private List<LabyrinthSecretEffect> labyrinthSecretEffectsKeys2;
     @Order(8)
-    private Integer unknown13;
+    private Integer unknown2;
     @Order(9)
     private List<LabyrinthSecretEffect> labyrinthSecretEffectsKeys3;
     @Order(10)
@@ -40,7 +40,7 @@ public class LabyrinthSecret
     @Order(11)
     private Byte flag1;
     @Order(12)
-    private Integer unknown0;
+    private Integer unknown3;
     @Order(13)
     private Byte flag2;
     @Order(14)
@@ -50,6 +50,12 @@ public class LabyrinthSecret
     @Order(16)
     private String name;
     @Order(17)
-    private AchievementItem achievementItemsKey;
+    private AchievementItems achievementItemsKey;
+    @Order(18)
+    private Integer labyrinthTierMinimum;
+    @Order(19)
+    private Integer labyrinthTierMaximum;
+    @Order(20)
+    private Boolean flag5;
 
 }

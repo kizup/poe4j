@@ -24,5 +24,7 @@ public class Pet
     private Integer unknown4;
     @Order(4)
     private Integer unknown1;
+    @Order(5)
+    private Short unknown5;
 
 }

@@ -44,28 +44,28 @@ public class PassiveSkills
     @Order(13)
     private Boolean isJustIcon;
     @Order(14)
-    private AchievementItem achievementItemsKey;
+    private AchievementItems achievementItemsKey;
     @Order(15)
     private Boolean isJewelSocket;
     @Order(16)
-    private BuffDefinitions grantedBuff_BuffDefinitionsKey;
-    @Order(17)
-    private Long key2;
-    @Order(18)
-    private Integer buffRelatedUnknown0;
-    @Order(19)
-    private List<Integer> buffRelatedUnknown1;
-    @Order(20)
     private Ascendancy ascendancyKey;
-    @Order(21)
+    @Order(17)
     private Boolean isAscendancyStartingNode;
-    @Order(22)
-    private List<ClientString> reminder_ClientStingsKeys;
-    @Order(23)
+    @Order(18)
+    private List<ClientStrings> reminder_ClientStringsKeys;
+    @Order(19)
     private Integer skillPointsGranted;
+    @Order(20)
+    private Boolean isMultipleChoice;
+    @Order(21)
+    private Boolean isMultipleChoiceOption;
+    @Order(22)
+    private Integer stat5Value;
+    @Order(23)
+    private List<PassiveSkillBuff> passiveSkillBuffsKeys;
     @Order(24)
-    private Byte isStartingPointUnlock;
+    private Long key0;
     @Order(25)
-    private Byte isAscendancy;
+    private Boolean flag0;
 
 }

@@ -1,6 +1,7 @@
 
 package com.swandiggy.poe4j.data.rows.gen;
 
+import java.util.List;
 import com.swandiggy.poe4j.data.annotations.DatFile;
 import com.swandiggy.poe4j.data.annotations.Order;
 import com.swandiggy.poe4j.data.rows.BaseRow;
@@ -36,5 +37,15 @@ public class StrDexIntMissionExtraRequirement
     private Integer timeLimitBonusFromObjective;
     @Order(10)
     private Integer objectCount;
+    @Order(11)
+    private List<Integer> data0;
+    @Order(12)
+    private Boolean flag0;
+    @Order(13)
+    private List<Long> keys0;
+    @Order(14)
+    private Byte flag1;
+    @Order(15)
+    private Byte flag2;
 
 }

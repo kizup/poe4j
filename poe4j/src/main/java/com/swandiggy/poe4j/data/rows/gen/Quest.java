@@ -1,6 +1,7 @@
 
 package com.swandiggy.poe4j.data.rows.gen;
 
+import java.util.List;
 import com.swandiggy.poe4j.data.annotations.DatFile;
 import com.swandiggy.poe4j.data.annotations.Order;
 import com.swandiggy.poe4j.data.rows.BaseRow;
@@ -27,22 +28,16 @@ public class Quest
     @Order(5)
     private Integer questId;
     @Order(6)
-    private Boolean flag0;
+    private Integer unknown0;
     @Order(7)
-    private Byte unknown6;
+    private Boolean flag0;
     @Order(8)
-    private Boolean isQuest;
+    private Long unknown7;
     @Order(9)
-    private Byte unknown8;
+    private List<Integer> unknown8;
     @Order(10)
-    private Byte unknown9;
+    private Integer unknown9;
     @Order(11)
-    private Boolean flag1;
-    @Order(12)
-    private Integer unknown11;
-    @Order(13)
-    private Boolean flag2;
-    @Order(14)
-    private Boolean flag3;
+    private Integer unknown10;
 
 }

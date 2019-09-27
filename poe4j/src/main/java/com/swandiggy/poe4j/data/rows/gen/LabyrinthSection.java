@@ -17,12 +17,14 @@ public class LabyrinthSection
     @Order(0)
     private String id;
     @Order(1)
-    private Boolean flag0;
-    @Order(2)
-    private Boolean flag1;
-    @Order(3)
-    private Boolean flag2;
-    @Order(4)
     private Long key0;
+    @Order(2)
+    private Integer unknown1;
+    @Order(3)
+    private Integer unknown2;
+    @Order(4)
+    private Integer unknown3;
+    @Order(5)
+    private Integer unknown4;
 
 }

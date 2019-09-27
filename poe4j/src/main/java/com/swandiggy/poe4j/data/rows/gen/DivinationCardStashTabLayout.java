@@ -15,6 +15,8 @@ public class DivinationCardStashTabLayout
 {
 
     @Order(0)
-    private Long key0;
+    private BaseItemTypes baseItemTypesKey;
+    @Order(1)
+    private Boolean isEnabled;
 
 }

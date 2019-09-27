@@ -26,21 +26,21 @@ public class ItemVisualIdentity
     @Order(4)
     private Integer unknownUniqueInt;
     @Order(5)
-    private String fMTFile;
+    private String aOFile2;
     @Order(6)
-    private String marauderSMFile;
+    private List<String> marauderSMFiles;
     @Order(7)
-    private String rangerSMFile;
+    private List<String> rangerSMFiles;
     @Order(8)
-    private String witchSMFile;
+    private List<String> witchSMFiles;
     @Order(9)
-    private String duelistDexSMFile;
+    private List<String> duelistDexSMFiles;
     @Order(10)
-    private String templarSMFile;
+    private List<String> templarSMFiles;
     @Order(11)
-    private String shadowSMFile;
+    private List<String> shadowSMFiles;
     @Order(12)
-    private String scionSMFile;
+    private List<String> scionSMFiles;
     @Order(13)
     private String marauderShape;
     @Order(14)
@@ -56,18 +56,58 @@ public class ItemVisualIdentity
     @Order(19)
     private String scionShape;
     @Order(20)
-    private Integer unknown17;
+    private Integer unknown0;
     @Order(21)
-    private Integer unknown18;
+    private Integer unknown1;
     @Order(22)
-    private List<AchievementItem> pickup_AchievementItemsKeys;
+    private List<AchievementItems> pickup_AchievementItemsKeys;
     @Order(23)
-    private String unknownSMFile2;
+    private List<String> sMFiles;
     @Order(24)
-    private List<AchievementItem> identify_AchievementItemsKeys;
+    private List<AchievementItems> identify_AchievementItemsKeys;
     @Order(25)
     private String ePKFile;
     @Order(26)
-    private List<AchievementItem> corrupt_AchievementItemsKeys;
+    private List<AchievementItems> corrupt_AchievementItemsKeys;
+    @Order(27)
+    private Boolean isAlternateArt;
+    @Order(28)
+    private Boolean flag2;
+    @Order(29)
+    private AchievementItems createCorruptedJewelAchievementItemsKey;
+    @Order(30)
+    private String animationLocation;
+    @Order(31)
+    private Integer unknown2;
+    @Order(32)
+    private Integer unknown3;
+    @Order(33)
+    private Integer unknown4;
+    @Order(34)
+    private Integer unknown5;
+    @Order(35)
+    private Integer unknown6;
+    @Order(36)
+    private Integer unknown7;
+    @Order(37)
+    private Integer unknown8;
+    @Order(38)
+    private Integer unknown9;
+    @Order(39)
+    private Integer unknown10;
+    @Order(40)
+    private Integer unknown11;
+    @Order(41)
+    private Integer unknown12;
+    @Order(42)
+    private Integer unknown13;
+    @Order(43)
+    private Boolean isAtlasOfWorldsMapIcon;
+    @Order(44)
+    private Boolean isTier16Icon;
+    @Order(45)
+    private Integer unknown14;
+    @Order(46)
+    private Integer unknown15;
 
 }

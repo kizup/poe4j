@@ -18,5 +18,9 @@ public class DivinationCardArt
     private BaseItemTypes baseItemTypesKey;
     @Order(1)
     private String virtualFile;
+    @Order(2)
+    private Boolean unknown0;
+    @Order(3)
+    private Boolean unknown1;
 
 }

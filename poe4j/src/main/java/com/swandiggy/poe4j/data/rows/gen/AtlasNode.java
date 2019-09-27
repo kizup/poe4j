@@ -22,18 +22,26 @@ public class AtlasNode
     @Order(2)
     private Float y;
     @Order(3)
-    private Integer unknown4;
+    private Integer unknown0;
     @Order(4)
-    private Integer unknown5;
+    private Integer unknown1;
     @Order(5)
-    private Integer unknown6;
+    private Integer unknown2;
     @Order(6)
     private List<AtlasNode> atlasNodeKeys;
     @Order(7)
-    private ItemVisualIdentity default_ItemVisualIdentityKey;
+    private ItemVisualIdentity itemVisualIdentityKey;
     @Order(8)
-    private ItemVisualIdentity fated_ItemVisualIdentityKey;
+    private Boolean flag0;
     @Order(9)
-    private String flavourText;
+    private Integer tier;
+    @Order(10)
+    private Maps mapsKey;
+    @Order(11)
+    private Integer unknown4;
+    @Order(12)
+    private List<AtlasSector> atlasSectorKeys;
+    @Order(13)
+    private FlavourText flavourTextKey;
 
 }

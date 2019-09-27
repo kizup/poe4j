@@ -28,5 +28,7 @@ public class CurrencyStashTabLayout
     private Integer unknown4;
     @Order(6)
     private Integer unknown5;
+    @Order(7)
+    private Boolean flag0;
 
 }

@@ -28,10 +28,10 @@ public class LabyrinthSectionLayout
     @Order(5)
     private LabyrinthArea labyrinthAreasKey;
     @Order(6)
-    private Integer flags1;
+    private Float float0;
     @Order(7)
-    private Integer flags2;
+    private Float float1;
     @Order(8)
-    private LabyrinthNodeOverride labyrinthNodeOverridesKey;
+    private List<LabyrinthNodeOverride> labyrinthNodeOverridesKeys;
 
 }

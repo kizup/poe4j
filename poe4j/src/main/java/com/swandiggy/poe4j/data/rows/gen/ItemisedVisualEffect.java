@@ -33,5 +33,7 @@ public class ItemisedVisualEffect
     private Boolean flag0;
     @Order(8)
     private List<Integer> data3;
+    @Order(9)
+    private List<Integer> data4;
 
 }

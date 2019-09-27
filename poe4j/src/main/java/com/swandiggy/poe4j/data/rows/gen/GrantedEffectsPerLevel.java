@@ -22,64 +22,94 @@ public class GrantedEffectsPerLevel
     @Order(2)
     private List<Stats> statsKeys;
     @Order(3)
-    private Integer stat1Value;
+    private Float stat1Float;
     @Order(4)
-    private Integer stat2Value;
+    private Float stat2Float;
     @Order(5)
-    private Integer stat3Value;
+    private Float stat3Float;
     @Order(6)
-    private Integer stat4Value;
+    private Float stat4Float;
     @Order(7)
-    private Integer stat5Value;
+    private Float stat5Float;
     @Order(8)
-    private Integer stat6Value;
+    private Float stat6Float;
     @Order(9)
-    private Integer stat7Value;
+    private Float stat7Float;
     @Order(10)
-    private Integer stat8Value;
+    private Float stat8Float;
     @Order(11)
-    private Integer levelRequirement;
+    private List<EffectivenessCostConstant> effectivenessCostConstantsKeys;
     @Order(12)
-    private Integer manaMultiplier;
+    private Integer stat1Value;
     @Order(13)
-    private Integer levelRequirement2;
+    private Integer stat2Value;
     @Order(14)
-    private Integer levelRequirement3;
+    private Integer stat3Value;
     @Order(15)
-    private List<Stats> quality_StatsKeys;
+    private Integer stat4Value;
     @Order(16)
-    private List<Integer> quality_Values;
+    private Integer stat5Value;
     @Order(17)
-    private Integer criticalStrikeChance;
+    private Integer stat6Value;
     @Order(18)
-    private Integer manaCost;
+    private Integer stat7Value;
     @Order(19)
-    private Integer damageEffectiveness;
+    private Integer stat8Value;
     @Order(20)
-    private Integer storedUses;
+    private Integer levelRequirement;
     @Order(21)
-    private Integer cooldown;
+    private Integer manaMultiplier;
     @Order(22)
-    private Integer unknown29;
+    private Integer levelRequirement2;
     @Order(23)
-    private List<Stats> statsKeys2;
+    private Integer levelRequirement3;
     @Order(24)
-    private Boolean unknown30a;
+    private List<Stats> quality_StatsKeys;
     @Order(25)
-    private Integer vaalSouls;
+    private List<Integer> quality_Values;
     @Order(26)
-    private Integer vaalStoredUses;
+    private Integer criticalStrikeChance;
     @Order(27)
-    private Integer unknown32;
+    private Integer manaCost;
     @Order(28)
-    private Integer unknown33;
+    private Integer damageEffectiveness;
     @Order(29)
-    private Integer unknown34;
+    private Integer storedUses;
     @Order(30)
-    private Integer damageMultiplier;
+    private Integer cooldown;
     @Order(31)
-    private Integer unknown36;
+    private Integer cooldownBypassType;
     @Order(32)
+    private List<Stats> statsKeys2;
+    @Order(33)
+    private Boolean unknown30a;
+    @Order(34)
+    private Integer vaalSouls;
+    @Order(35)
+    private Integer vaalStoredUses;
+    @Order(36)
+    private Integer cooldownGroup;
+    @Order(37)
+    private Integer manaReservationOverride;
+    @Order(38)
     private Integer unknown37;
+    @Order(39)
+    private Integer damageMultiplier;
+    @Order(40)
+    private Integer unknown45;
+    @Order(41)
+    private Integer unknown46;
+    @Order(42)
+    private List<Integer> statInterpolationTypesKeys;
+    @Order(43)
+    private Integer unknown0;
+    @Order(44)
+    private Integer vaalSoulGainPreventionTime;
+    @Order(45)
+    private Long key0;
+    @Order(46)
+    private Integer unknown1;
+    @Order(47)
+    private Integer attackSpeedMultiplier;
 
 }

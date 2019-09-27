@@ -25,6 +25,8 @@ public class ShopCategory
     @Order(4)
     private String websiteJPGFile;
     @Order(5)
-    private Integer unknown5;
+    private Integer unknown0;
+    @Order(6)
+    private BaseItemTypes appliedTo_BaseItemTypesKey;
 
 }

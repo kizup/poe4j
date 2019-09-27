@@ -20,5 +20,9 @@ public class MicrotransactionPortalVariation
     private String aOFile;
     @Order(2)
     private String mapAOFile;
+    @Order(3)
+    private Float unknown4;
+    @Order(4)
+    private Long key0;
 
 }

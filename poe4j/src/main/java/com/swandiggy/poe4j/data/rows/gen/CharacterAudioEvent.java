@@ -42,6 +42,6 @@ public class CharacterAudioEvent
     @Order(12)
     private List<CharacterTextAudio> jackTheAxe_CharacterTextAudioKeys;
     @Order(13)
-    private Byte flag0;
+    private Boolean flag0;
 
 }

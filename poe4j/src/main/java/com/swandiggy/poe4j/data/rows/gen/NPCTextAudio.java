@@ -28,5 +28,7 @@ public class NPCTextAudio
     private Boolean hasStereo;
     @Order(6)
     private Boolean flag0;
+    @Order(7)
+    private String inflection;
 
 }

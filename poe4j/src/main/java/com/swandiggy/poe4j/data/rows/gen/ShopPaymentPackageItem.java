@@ -19,6 +19,10 @@ public class ShopPaymentPackageItem
     @Order(1)
     private ShopPaymentPackage shopPaymentPackageKey;
     @Order(2)
+    private Long shopItemKey;
+    @Order(3)
+    private String unknown0;
+    @Order(4)
     private ShopToken shopTokenKey;
 
 }

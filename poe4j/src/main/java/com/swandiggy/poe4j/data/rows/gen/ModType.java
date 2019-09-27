@@ -18,6 +18,8 @@ public class ModType
     @Order(0)
     private String name;
     @Order(1)
-    private List<ModSellPrice> modSellPricesKeys;
+    private List<ModSellPriceType> modSellPriceTypesKeys;
+    @Order(2)
+    private List<Tags> tagsKeys;
 
 }

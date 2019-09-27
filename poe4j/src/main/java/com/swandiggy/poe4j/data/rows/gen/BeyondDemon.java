@@ -15,10 +15,10 @@ public class BeyondDemon
 {
 
     @Order(0)
-    private Long monsterVarietiesKey;
+    private MonsterVarieties monsterVarietiesKey;
     @Order(1)
-    private Byte flag0;
+    private Boolean flag0;
     @Order(2)
-    private Byte flag1;
+    private Boolean flag1;
 
 }

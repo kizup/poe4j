@@ -22,16 +22,20 @@ public class MonsterType
     @Order(2)
     private Boolean isSummoned;
     @Order(3)
-    private Integer unknown2;
+    private Integer armour;
     @Order(4)
-    private Integer unknown3;
+    private Integer evasion;
     @Order(5)
-    private Integer unknown4;
+    private Integer energyShieldFromLife;
     @Order(6)
-    private Integer unknown5;
+    private Integer damageSpread;
     @Order(7)
     private List<Tags> tagsKeys;
     @Order(8)
     private MonsterResistance monsterResistancesKey;
+    @Order(9)
+    private Boolean isLargeAbyssMonster;
+    @Order(10)
+    private Boolean isSmallAbyssMonster;
 
 }

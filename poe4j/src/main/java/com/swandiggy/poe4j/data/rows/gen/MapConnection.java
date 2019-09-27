@@ -28,5 +28,9 @@ public class MapConnection
     private Integer unknown4;
     @Order(6)
     private Integer unknown5;
+    @Order(7)
+    private Integer unknown6;
+    @Order(8)
+    private String restrictedAreaMessage;
 
 }

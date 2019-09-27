@@ -20,18 +20,32 @@ public class BuffVisuals
     @Order(1)
     private String buffDDSFile;
     @Order(2)
-    private String ePKFile1;
+    private List<String> ePKFiles1;
     @Order(3)
-    private String ePKFile2;
+    private List<String> ePKFiles2;
     @Order(4)
-    private MiscAnimated miscAnimatedKey;
+    private List<MiscAnimated> miscAnimatedKeys1;
     @Order(5)
-    private MiscAnimated miscAnimatedKey2;
+    private List<MiscAnimated> miscAnimatedKeys2;
     @Order(6)
-    private Integer unknown6;
+    private Integer unknown0;
     @Order(7)
     private List<PreloadGroups> preloadGroupsKeys;
     @Order(8)
     private Boolean flag0;
+    @Order(9)
+    private String buffName;
+    @Order(10)
+    private Long key0;
+    @Order(11)
+    private Long key1;
+    @Order(12)
+    private String buffDescription;
+    @Order(13)
+    private String ePKFile;
+    @Order(14)
+    private Boolean hasExtraArt;
+    @Order(15)
+    private String extraArt;
 
 }

@@ -18,5 +18,11 @@ public class GemTag
     private String id;
     @Order(1)
     private String tag;
+    @Order(2)
+    private Long key0;
+    @Order(3)
+    private Long key1;
+    @Order(4)
+    private Long key2;
 
 }

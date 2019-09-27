@@ -22,5 +22,7 @@ public class Command
     private Boolean flag0;
     @Order(3)
     private String command2;
+    @Order(4)
+    private String description;
 
 }

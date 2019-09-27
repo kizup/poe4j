@@ -99,7 +99,12 @@ public class RowClassGenerator implements ApplicationRunner, ExitCodeGenerator {
             if (classCache.containsKey(filename)) {
                 clazz = classCache.get(filename);
             } else {
-                clazz = cm._class("com.swandiggy.poe4j.row.gen." + simpleClassName);
+                try {
+                    clazz = cm._class("com.swandiggy.poe4j.row.gen." + simpleClassName);
+                } catch (JClassAlreadyExistsException jcaee) {
+                    jcaee.printStackTrace();
+                    continue;
+                }
                 classCache.put(filename, clazz);
             }
 
@@ -229,6 +234,8 @@ public class RowClassGenerator implements ApplicationRunner, ExitCodeGenerator {
             return cm.ref(List.class).narrow(Long.class);
         } else if (Objects.equals(type.get("type"), "ubyte")) {
             return Byte.class;
+        } else if (Objects.equals(type.get("type"), "ref|list|float")) {
+            return cm.ref(List.class).narrow(Float.class);
         }
 
         throw new Poe4jException(MessageFormat.format("Could not determine field type for {0}", type));

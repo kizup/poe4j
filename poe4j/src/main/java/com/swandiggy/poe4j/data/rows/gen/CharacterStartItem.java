@@ -18,7 +18,7 @@ public class CharacterStartItem
     @Order(0)
     private CharacterStartStates characterStartStatesKey;
     @Order(1)
-    private Integer unknown2;
+    private Integer unknown0;
     @Order(2)
     private BaseItemTypes baseItemTypesKey;
     @Order(3)
@@ -43,5 +43,11 @@ public class CharacterStartItem
     private Boolean flag0;
     @Order(13)
     private Long key0;
+    @Order(14)
+    private List<Integer> data0;
+    @Order(15)
+    private Byte flag1;
+    @Order(16)
+    private Byte flag2;
 
 }

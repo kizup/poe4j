@@ -19,6 +19,6 @@ public class KillstreakThreshold
     @Order(1)
     private MonsterVarieties monsterVarietiesKey;
     @Order(2)
-    private AchievementItem achievementItemsKey;
+    private AchievementItems achievementItemsKey;
 
 }

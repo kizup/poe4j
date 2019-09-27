@@ -25,5 +25,15 @@ public class QuestVendorReward
     private List<Characters> charactersKeys;
     @Order(4)
     private List<BaseItemTypes> baseItemTypesKeys;
+    @Order(5)
+    private Boolean flag0;
+    @Order(6)
+    private Boolean flag1;
+    @Order(7)
+    private List<Long> uniqueItemsKeys;
+    @Order(8)
+    private Long key0;
+    @Order(9)
+    private Integer unknown4;
 
 }

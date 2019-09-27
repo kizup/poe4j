@@ -1,9 +1,10 @@
 
 package com.swandiggy.poe4j.data.rows.gen;
 
+import java.util.List;
 import com.swandiggy.poe4j.data.annotations.DatFile;
 import com.swandiggy.poe4j.data.annotations.Order;
-import com.swandiggy.poe4j.data.annotations.ReferenceOne;
+import com.swandiggy.poe4j.data.annotations.Reference;
 import com.swandiggy.poe4j.data.rows.BaseRow;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -16,11 +17,15 @@ public class AchievementSetReward
 {
 
     @Order(0)
-    @ReferenceOne("id")
+    @Reference(Integer.class)
     private AchievementSetsDisplay achievementSetsDisplayKey;
     @Order(1)
     private Integer unknown1;
     @Order(2)
-    private BaseItemTypes baseItemTypesKey;
+    private List<BaseItemTypes> baseItemTypesKeys;
+    @Order(3)
+    private Integer unknown2;
+    @Order(4)
+    private String message;
 
 }

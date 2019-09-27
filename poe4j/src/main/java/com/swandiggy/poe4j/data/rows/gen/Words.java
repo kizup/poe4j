@@ -16,7 +16,7 @@ public class Words
 {
 
     @Order(0)
-    private Integer type;
+    private Integer wordlistsKey;
     @Order(1)
     private String text;
     @Order(2)
@@ -28,6 +28,6 @@ public class Words
     @Order(5)
     private String text2;
     @Order(6)
-    private String unknown8;
+    private String inflection;
 
 }

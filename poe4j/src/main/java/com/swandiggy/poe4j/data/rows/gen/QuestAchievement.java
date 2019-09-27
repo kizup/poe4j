@@ -1,6 +1,7 @@
 
 package com.swandiggy.poe4j.data.rows.gen;
 
+import java.util.List;
 import com.swandiggy.poe4j.data.annotations.DatFile;
 import com.swandiggy.poe4j.data.annotations.Order;
 import com.swandiggy.poe4j.data.rows.BaseRow;
@@ -15,16 +16,14 @@ public class QuestAchievement
 {
 
     @Order(0)
-    private AchievementItem achievementItemsKey;
+    private String id;
     @Order(1)
-    private Integer questState;
+    private List<Integer> questStates;
     @Order(2)
-    private Boolean isHardcoreAchievement;
+    private List<Integer> unknown3;
     @Order(3)
-    private Boolean isStandardAchievement;
+    private List<Long> achievementItemsKeys;
     @Order(4)
-    private Difficulties difficultiesKey;
-    @Order(5)
-    private Integer unknown1;
+    private List<Long> keys0;
 
 }

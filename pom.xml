@@ -30,33 +30,33 @@
     <build>
         <pluginManagement>
             <plugins>
-                <plugin>
-                    <groupId>com.github.github</groupId>
-                    <artifactId>site-maven-plugin</artifactId>
-                    <version>0.11</version>
-                    <configuration>
-                        <message>Maven artifacts for ${project.version}</message>
-                        <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
-                        <branch>refs/heads/mvn-repo</branch>
-                        <merge>true</merge>
-                        <includes>
-                            <include>**/*</include>
-                        </includes>
-                        <repositoryName>poe4j</repositoryName>
-                        <repositoryOwner>jacob-swanson</repositoryOwner>
-                        <oauth2Token>${env.GH_TOKEN}</oauth2Token>
-                        <password>${env.GH_TOKEN}</password>
-                        <server>github</server>
-                    </configuration>
-                    <executions>
-                        <execution>
-                            <goals>
-                                <goal>site</goal>
-                            </goals>
-                            <phase>deploy</phase>
-                        </execution>
-                    </executions>
-                </plugin>
+                <!--<plugin>-->
+                    <!--<groupId>com.github.github</groupId>-->
+                    <!--<artifactId>site-maven-plugin</artifactId>-->
+                    <!--<version>0.11</version>-->
+                    <!--<configuration>-->
+                        <!--<message>Maven artifacts for ${project.version}</message>-->
+                        <!--<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>-->
+                        <!--<branch>refs/heads/mvn-repo</branch>-->
+                        <!--<merge>true</merge>-->
+                        <!--<includes>-->
+                            <!--<include>**/*</include>-->
+                        <!--</includes>-->
+                        <!--<repositoryName>poe4j</repositoryName>-->
+                        <!--<repositoryOwner>jacob-swanson</repositoryOwner>-->
+                        <!--<oauth2Token>${env.GH_TOKEN}</oauth2Token>-->
+                        <!--<password>${env.GH_TOKEN}</password>-->
+                        <!--<server>github</server>-->
+                    <!--</configuration>-->
+                    <!--<executions>-->
+                        <!--<execution>-->
+                            <!--<goals>-->
+                                <!--<goal>site</goal>-->
+                            <!--</goals>-->
+                            <!--<phase>deploy</phase>-->
+                        <!--</execution>-->
+                    <!--</executions>-->
+                <!--</plugin>-->
                 <plugin>
                     <artifactId>maven-deploy-plugin</artifactId>
                     <inherited>false</inherited>

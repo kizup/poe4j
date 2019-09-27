@@ -4,7 +4,6 @@ package com.swandiggy.poe4j.data.rows.gen;
 import java.util.List;
 import com.swandiggy.poe4j.data.annotations.DatFile;
 import com.swandiggy.poe4j.data.annotations.Order;
-import com.swandiggy.poe4j.data.annotations.ReferenceOne;
 import com.swandiggy.poe4j.data.rows.BaseRow;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -19,38 +18,32 @@ public class NPCMaster
     @Order(0)
     private String id;
     @Order(1)
-    @ReferenceOne("id")
-    private NPCs nPCsKey;
+    private Short unknown14;
     @Order(2)
-    private Boolean isStrMaster;
+    private Mods signature_ModsKey;
     @Order(3)
-    private Boolean isDexMaster;
+    private Byte flag0;
     @Order(4)
-    private Mods signatureMod_ModsKey;
+    private List<Tags> spawnWeight_TagsKeys;
     @Order(5)
-    private Boolean isIntMaster;
+    private List<Integer> spawnWeight_Values;
     @Order(6)
-    @ReferenceOne("id")
-    private NPCs hideout;
+    private List<Integer> data0;
     @Order(7)
-    private List<Long> keys0;
+    private List<Integer> data1;
     @Order(8)
-    private Integer unknown7;
+    private Long key1;
     @Order(9)
-    private AchievementItem achievementItemsKey;
+    private String helpText;
     @Order(10)
-    private List<Tags> signatureModSpawnWeight_TagsKeys;
+    private String helpTextForNextLevel;
     @Order(11)
-    private List<Integer> signatureModSpawnWeight_Values;
-    @Order(12)
-    private List<Tags> unknownWeight_TagsKeys;
-    @Order(13)
-    private List<Integer> unknownWeight_Values;
-    @Order(14)
     private Long key2;
-    @Order(15)
-    private AchievementItem talisman_AchievementItemsKey;
-    @Order(16)
-    private List<AchievementItem> masterLevel5_AchievementItemsKeys;
+    @Order(12)
+    private Integer unknown0;
+    @Order(13)
+    private String areaDescription;
+    @Order(14)
+    private Long key3;
 
 }

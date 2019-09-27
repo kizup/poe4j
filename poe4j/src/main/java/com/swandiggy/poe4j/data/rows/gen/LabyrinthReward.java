@@ -17,16 +17,16 @@ public class LabyrinthReward
     @Order(0)
     private String id;
     @Order(1)
-    private Integer unknown1;
+    private Chests chestsKey;
     @Order(2)
-    private Long key0;
+    private Integer spawnWeight;
     @Order(3)
-    private Integer unknown4;
+    private Long unknown3;
     @Order(4)
-    private Long key1;
+    private Integer minLabyrinthTier;
     @Order(5)
-    private Integer unknown7;
+    private Integer maxLabyrinthTier;
     @Order(6)
-    private Integer unknown8;
+    private LabyrinthRewardType labyrinthRewardTypesKey;
 
 }

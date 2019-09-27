@@ -22,7 +22,7 @@ public class QuestState
     @Order(2)
     private List<Integer> questStates;
     @Order(3)
-    private List<Integer> data1;
+    private List<Integer> data0;
     @Order(4)
     private String text;
     @Order(5)
@@ -42,8 +42,14 @@ public class QuestState
     @Order(12)
     private String questFinished_OGGFile;
     @Order(13)
-    private Boolean unknown2;
+    private Boolean flag1;
     @Order(14)
-    private List<Integer> unknown3;
+    private String objective;
+    @Order(15)
+    private List<Integer> data1;
+    @Order(16)
+    private Integer questStateCalcuationKey;
+    @Order(17)
+    private Long key0;
 
 }

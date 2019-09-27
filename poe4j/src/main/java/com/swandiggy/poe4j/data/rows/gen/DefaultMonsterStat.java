@@ -23,12 +23,26 @@ public class DefaultMonsterStat
     @Order(3)
     private Integer accuracy;
     @Order(4)
-    private Integer stat4;
+    private Integer life;
     @Order(5)
     private Integer experience;
     @Order(6)
-    private Integer life;
+    private Integer allyLife;
     @Order(7)
-    private Difficulties difficultyKey;
+    private Integer unknown0;
+    @Order(8)
+    private Integer difficulty;
+    @Order(9)
+    private Float damage2;
+    @Order(10)
+    private Integer unknown1;
+    @Order(11)
+    private Float unknown2;
+    @Order(12)
+    private Float unknown3;
+    @Order(13)
+    private Integer unknown4;
+    @Order(14)
+    private Integer unknown5;
 
 }

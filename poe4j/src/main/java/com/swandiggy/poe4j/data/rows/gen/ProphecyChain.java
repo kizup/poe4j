@@ -20,10 +20,12 @@ public class ProphecyChain
     @Order(1)
     private Integer unknown1;
     @Order(2)
-    private List<Integer> unknown3;
+    private List<Integer> unknown2;
     @Order(3)
-    private Integer unknown2;
+    private List<Integer> unknown3;
     @Order(4)
-    private List<Integer> unknown4;
+    private Integer unknown4;
+    @Order(5)
+    private Integer unknown5;
 
 }

@@ -1,13 +1,12 @@
 
 package com.swandiggy.poe4j.data.rows.gen;
 
+import java.util.List;
 import com.swandiggy.poe4j.data.annotations.DatFile;
 import com.swandiggy.poe4j.data.annotations.Order;
 import com.swandiggy.poe4j.data.rows.BaseRow;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-
-import java.util.List;
 
 @Data
 @EqualsAndHashCode(callSuper = true)
@@ -29,154 +28,200 @@ public class WorldAreas
     @Order(5)
     private List<WorldAreas> connections_WorldAreasKeys;
     @Order(6)
-    private Integer monsterLevel;
+    private Integer areaLevel;
     @Order(7)
-    private Boolean hasDoodads;
-    @Order(8)
     private Integer unknown6;
-    @Order(9)
+    @Order(8)
     private Integer unknown7;
-    @Order(10)
+    @Order(9)
     private Integer unknown8;
-    @Order(11)
-    private Integer unknown9;
-    @Order(12)
+    @Order(10)
     private String loadingScreen_DDSFile;
+    @Order(11)
+    private Integer unknown10;
+    @Order(12)
+    private List<Integer> data0;
     @Order(13)
-    private Integer unknown11;
+    private Integer unknown13;
     @Order(14)
-    private List<Integer> data1;
+    private List<Topologies> topologiesKeys;
     @Order(15)
-    private Integer unknown15;
-    @Order(16)
-    private List<Topologie> topologiesKeys;
-    @Order(17)
     private WorldAreas parentTown_WorldAreasKey;
+    @Order(16)
+    private Integer unknown17;
+    @Order(17)
+    private Integer unknown18;
     @Order(18)
-    private Difficulties difficultiesKey;
+    private Integer unknown19;
     @Order(19)
-    private Integer unknown21;
-    @Order(20)
-    private Integer unknown22;
-    @Order(21)
-    private Integer unknown23;
-    @Order(22)
     private List<MonsterVarieties> bosses_MonsterVarietiesKeys;
-    @Order(23)
-    private List<MonsterVarieties> monsters_MonsterVarietiesKey;
-    @Order(24)
+    @Order(20)
+    private List<MonsterVarieties> monsters_MonsterVarietiesKeys;
+    @Order(21)
     private List<Tags> spawnWeight_TagsKeys;
-    @Order(25)
+    @Order(22)
     private List<Integer> spawnWeight_Values;
-    @Order(26)
-    private Boolean isMap;
-    @Order(27)
-    private List<AchievementItem> fullClear_AchievementItemsKeys;
-    @Order(28)
+    @Order(23)
+    private Boolean isMapArea;
+    @Order(24)
+    private List<AchievementItems> fullClear_AchievementItemsKeys;
+    @Order(25)
     private Integer unknown32;
-    @Order(29)
+    @Order(26)
     private Integer unknown33;
-    @Order(30)
-    private AchievementItem achievementItemsKey;
-    @Order(31)
+    @Order(27)
+    private AchievementItems achievementItemsKey;
+    @Order(28)
     private List<Mods> modsKeys;
-    @Order(32)
+    @Order(29)
+    private Integer unknown38;
+    @Order(30)
     private Integer unknown39;
+    @Order(31)
+    private List<WorldAreas> vaalArea_WorldAreasKeys;
+    @Order(32)
+    private Integer vaalArea_SpawnChance;
     @Order(33)
-    private Integer unknown40;
+    private Integer strongbox_SpawnChance;
     @Order(34)
-    private List<Integer> data9;
+    private Integer strongbox_MaxCount;
     @Order(35)
-    private Integer temp;
+    private List<Integer> strongbox_RarityWeight;
     @Order(36)
-    private Integer unknown43;
+    private Byte flag0;
     @Order(37)
-    private Integer unknown44;
+    private Integer unknown46;
     @Order(38)
-    private List<Integer> data10;
-    @Order(39)
-    private Boolean isTownArea;
-    @Order(40)
-    private Integer unknown49;
-    @Order(41)
     private Integer maxLevel;
-    @Order(42)
-    private List<Tags> tagsKeys;
-    @Order(43)
+    @Order(39)
+    private List<Tags> areaType_TagsKeys;
+    @Order(40)
     private Integer unknown50;
-    @Order(44)
-    private Boolean isMercilessVaalArea;
-    @Order(45)
-    private Integer unknown52;
-    @Order(46)
+    @Order(41)
+    private Integer unknown51;
+    @Order(42)
     private Boolean isHideout;
-    @Order(47)
+    @Order(43)
+    private Integer unknown52;
+    @Order(44)
     private Integer unknown53;
-    @Order(48)
+    @Order(45)
     private Integer unknown54;
-    @Order(49)
+    @Order(46)
     private Integer unknown55;
-    @Order(50)
+    @Order(47)
     private Integer unknown56;
-    @Order(51)
-    private String unknownIndex;
-    @Order(52)
+    @Order(48)
+    private Integer unknown57;
+    @Order(49)
+    private Integer unknown58;
+    @Order(50)
     private Integer unknown59;
-    @Order(53)
-    private Integer unknown60;
-    @Order(54)
-    private Integer unknown61;
-    @Order(55)
-    private List<Tags> tagsKeys2;
-    @Order(56)
+    @Order(51)
+    private List<Tags> tagsKeys;
+    @Order(52)
     private Boolean isVaalArea;
-    @Order(57)
+    @Order(53)
+    private Integer unknown62;
+    @Order(54)
+    private Integer unknown63;
+    @Order(55)
     private Integer unknown64;
-    @Order(58)
-    private Integer unknown65;
-    @Order(59)
-    private Integer unknown66;
-    @Order(60)
+    @Order(56)
     private Boolean isLabyrinthAirlock;
-    @Order(61)
+    @Order(57)
     private Boolean isLabyrinthArea;
+    @Order(58)
+    private AchievementItems twinnedFullClear_AchievementItemsKey;
+    @Order(59)
+    private AchievementItems enter_AchievementItemsKey;
+    @Order(60)
+    private Integer unknown69;
+    @Order(61)
+    private Integer unknown70;
     @Order(62)
-    private AchievementItem twinnedFullClear_AchievementItemsKey;
+    private Integer unknown71;
     @Order(63)
-    private AchievementItem enter_AchievementItemsKey;
+    private String tSIFile;
     @Order(64)
-    private Integer unknown73;
+    private Long key0;
     @Order(65)
-    private Integer unknown74;
-    @Order(66)
     private Integer unknown75;
+    @Order(66)
+    private Integer unknown76;
     @Order(67)
-    private String unknown76;
-    @Order(68)
-    private AchievementItem eightModsFullClear_AchievementItemsKey;
-    @Order(69)
     private Integer unknown77;
+    @Order(68)
+    private List<AchievementItems> waypointActivation_AchievementItemsKeys;
+    @Order(69)
+    private Boolean isUniqueMapArea;
     @Order(70)
-    private Integer unknown78;
+    private Boolean isLabyrinthBossArea;
     @Order(71)
-    private Integer unknown79;
+    private Integer unknown80;
     @Order(72)
-    private List<AchievementItem> keys1;
+    private Integer unknown81;
     @Order(73)
-    private Boolean flag0;
+    private NPCTextAudio firstEntry_NPCTextAudioKey;
     @Order(74)
-    private Boolean flag1;
+    private SoundEffects firstEntry_SoundEffectsKey;
     @Order(75)
-    private Integer unknown82;
+    private NPCs firstEntry_NPCsKey;
     @Order(76)
-    private Integer unknown83;
+    private Integer unknown87;
     @Order(77)
-    private List<Long> keys2;
+    private Integer unknown88;
     @Order(78)
-    private Long key0a;
+    private Integer unknown89;
     @Order(79)
-    private Long key0b;
+    private Integer unknown90;
     @Order(80)
-    private String unknown88;
+    private Integer unknown91;
+    @Order(81)
+    private Integer unknown94;
+    @Order(82)
+    private Environment environmentsKey;
+    @Order(83)
+    private Integer unknown85;
+    @Order(84)
+    private Integer unknown86;
+    @Order(85)
+    private Integer unknown92;
+    @Order(86)
+    private Integer unknown93;
+    @Order(87)
+    private Integer unknown95;
+    @Order(88)
+    private Integer unknown96;
+    @Order(89)
+    private Integer unknown97;
+    @Order(90)
+    private Integer unknown98;
+    @Order(91)
+    private Integer unknown99;
+    @Order(92)
+    private Integer unknown100;
+    @Order(93)
+    private Integer unknown101;
+    @Order(94)
+    private Integer unknown102;
+    @Order(95)
+    private Boolean flag1;
+    @Order(96)
+    private Integer unknown103;
+    @Order(97)
+    private Integer unknown104;
+    @Order(98)
+    private Byte flag2;
+    @Order(99)
+    private Integer unknown105;
+    @Order(100)
+    private Integer unknown106;
+    @Order(101)
+    private Integer unknown107;
+    @Order(102)
+    private Integer unknown108;
+    @Order(103)
+    private Integer unknown109;
 
 }

@@ -30,20 +30,28 @@ public class CurrencyItem
     @Order(6)
     private String description;
     @Order(7)
-    private List<AchievementItem> usage_AchievementItemsKeys;
+    private List<AchievementItems> usage_AchievementItemsKeys;
     @Order(8)
     private Boolean flag1;
     @Order(9)
     private String cosmeticTypeName;
     @Order(10)
-    private AchievementItem possession_AchievementItemsKey;
+    private AchievementItems possession_AchievementItemsKey;
     @Order(11)
     private List<Long> keys0;
     @Order(12)
-    private List<Integer> unknown17;
+    private List<Integer> unknown0;
     @Order(13)
     private Integer currencyTab_StackSize;
     @Order(14)
     private String abbreviation;
+    @Order(15)
+    private String xBoxDirections;
+    @Order(16)
+    private Integer unknown1;
+    @Order(17)
+    private Long key0;
+    @Order(18)
+    private Long key;
 
 }

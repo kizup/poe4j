@@ -32,12 +32,12 @@ public class CharacterStartStates
     @Order(7)
     private Long key1;
     @Order(8)
-    private List<CharacterStartQuestState> normal_CharacterStartQuestStateKeys;
+    private List<CharacterStartQuestState> characterStartQuestStateKeys;
     @Order(9)
-    private List<CharacterStartQuestState> cruel_CharacterStartQuestStateKeys;
+    private Byte bool0;
     @Order(10)
-    private List<CharacterStartQuestState> merciless_CharacterStartQuestStateKeys;
+    private String infoText;
     @Order(11)
-    private Byte unknown;
+    private Long key0;
 
 }

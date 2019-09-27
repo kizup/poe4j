@@ -20,24 +20,30 @@ public class MonsterPacks
     @Order(1)
     private List<WorldAreas> worldAreasKeys;
     @Order(2)
-    private Integer unknown3;
+    private Integer unknown0;
     @Order(3)
-    private Integer unknown4;
+    private Integer unknown1;
     @Order(4)
-    private Integer unknown5;
-    @Order(5)
     private Integer bossMonsterSpawnChance;
-    @Order(6)
+    @Order(5)
     private Integer bossMonsterCount;
-    @Order(7)
+    @Order(6)
     private List<MonsterVarieties> bossMonster_MonsterVarietiesKeys;
-    @Order(8)
+    @Order(7)
     private Boolean flag0;
+    @Order(8)
+    private Integer unknown2;
     @Order(9)
-    private Integer unknown11;
-    @Order(10)
     private List<String> data1;
-    @Order(11)
+    @Order(10)
     private List<Tags> tagsKeys;
+    @Order(11)
+    private Integer minLevel;
+    @Order(12)
+    private Integer maxLevel;
+    @Order(13)
+    private List<Long> keys0;
+    @Order(14)
+    private Integer unknown3;
 
 }

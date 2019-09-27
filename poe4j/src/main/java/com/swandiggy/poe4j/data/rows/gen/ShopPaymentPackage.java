@@ -25,9 +25,9 @@ public class ShopPaymentPackage
     @Order(3)
     private Boolean availableFlag;
     @Order(4)
-    private Integer unknown4;
+    private Integer unknown0;
     @Order(5)
-    private Integer unknown5;
+    private Integer unknown1;
     @Order(6)
     private Boolean flag0;
     @Order(7)
@@ -35,19 +35,23 @@ public class ShopPaymentPackage
     @Order(8)
     private List<Integer> data0;
     @Order(9)
-    private String overviewMessage;
-    @Order(10)
     private Long key0;
-    @Order(11)
+    @Order(10)
     private String backgroundImage;
+    @Order(11)
+    private String unknown5;
     @Order(12)
-    private String purchaseMessage;
-    @Order(13)
     private Boolean flag1;
-    @Order(14)
-    @Reference(java.lang.Integer.class)
+    @Order(13)
+    @Reference(Integer.class)
     private ShopPaymentPackage upgrade_ShopPaymentPackageKey;
+    @Order(14)
+    private Integer physicalItemPoints;
     @Order(15)
-    private Integer unknown14;
+    private Integer unknown6;
+    @Order(16)
+    private List<Integer> shopPackagePlatformKeys;
+    @Order(17)
+    private String unknown8;
 
 }

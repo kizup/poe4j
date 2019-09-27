@@ -22,7 +22,7 @@ public class LabyrinthSecretEffect
     @Order(2)
     private BuffDefinitions buff_BuffDefinitionsKey;
     @Order(3)
-    private List<Integer> buff_Values;
+    private List<Integer> buff_StatValues;
     @Order(4)
     private String oTFile;
 

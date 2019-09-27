@@ -22,6 +22,8 @@ public class MiscAnimated
     @Order(2)
     private List<PreloadGroups> preloadGroupsKeys;
     @Order(3)
+    private Integer unknown0;
+    @Order(4)
     private Integer unknown1;
 
 }

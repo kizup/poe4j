@@ -16,7 +16,7 @@ public class SkillTotemVariation
 {
 
     @Order(0)
-    @Reference(value = java.lang.Integer.class, offset = 1L)
+    @Reference(Integer.class)
     private SkillTotems skillTotemsKey;
     @Order(1)
     private Integer totemSkinId;

@@ -3,7 +3,6 @@ package com.swandiggy.poe4j.data.rows.gen;
 
 import com.swandiggy.poe4j.data.annotations.DatFile;
 import com.swandiggy.poe4j.data.annotations.Order;
-import com.swandiggy.poe4j.data.annotations.ReferenceOne;
 import com.swandiggy.poe4j.data.rows.BaseRow;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -16,7 +15,6 @@ public class ComponentArmour
 {
 
     @Order(0)
-    @ReferenceOne("id")
     private BaseItemTypes baseItemTypesKey;
     @Order(1)
     private Integer armour;
@@ -24,5 +22,7 @@ public class ComponentArmour
     private Integer evasion;
     @Order(3)
     private Integer energyShield;
+    @Order(4)
+    private Integer increasedMovementSpeed;
 
 }

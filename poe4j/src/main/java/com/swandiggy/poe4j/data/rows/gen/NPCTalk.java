@@ -38,36 +38,40 @@ public class NPCTalk
     @Order(10)
     private Integer unknown15;
     @Order(11)
-    private List<Long> keys0;
-    @Order(12)
     private List<NPCTextAudio> nPCTextAudioKeys;
-    @Order(13)
+    @Order(12)
     private String script2;
-    @Order(14)
+    @Order(13)
     private Boolean flag0;
-    @Order(15)
+    @Order(14)
     private Boolean flag1;
-    @Order(16)
+    @Order(15)
     private List<Integer> data5;
-    @Order(17)
+    @Order(16)
     private List<Integer> data6;
+    @Order(17)
+    private Integer unknown19;
     @Order(18)
-    private Byte unknown25;
+    private List<Integer> unknown20;
     @Order(19)
-    private Boolean flag2;
+    private Integer unknown21;
     @Order(20)
-    private Integer unknown25c;
+    private Boolean flag2;
     @Order(21)
-    private Integer unknown26;
+    private List<Long> keys0;
     @Order(22)
-    private Short unknown27;
+    private Long key0;
     @Order(23)
-    private List<Integer> data7;
-    @Order(24)
-    private Integer unknown30;
-    @Order(25)
     private Boolean flag3;
+    @Order(24)
+    private Boolean flag4;
+    @Order(25)
+    private String dialogueOption2;
     @Order(26)
-    private List<Long> key2;
+    private Long key1;
+    @Order(27)
+    private Long key2;
+    @Order(28)
+    private Integer unknown22;
 
 }
